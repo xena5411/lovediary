@@ -1,5 +1,4 @@
-# [109-1] Web Programming Final
-## (Group 48) Love Diary
+# Love Diary
 ### Deployment: http://love-diary.anyday.com.tw/ 
 ### Demo link : https://www.youtube.com/watch?v=i9KwDC7gTMs
 
@@ -14,12 +13,12 @@
 
 ### 使用/操作方式 : 
 ``` 
-git clone 暫不公布網址
-cd Love-Diary
+git clone git@github.com:xena5411/lovediary.git
+cd lovediary
 yarn
 ```
 #### 本地端測試： master branch
-開啟兩個終端機分別執行`cd Love-Diary & yarn start` 和 `cd Love-Diary & yarn server`
+開啟兩個終端機分別執行`cd lovediary & yarn start` 和 `cd lovediary & yarn server`
 
 #### 網站主機部署： Deployed branch
 
@@ -29,11 +28,6 @@ yarn
 * imgur(API)
 
 ### 專題製作心得 : 
-
-#### B08902029 陳咏誼 :
-  我負責的部分是前端和後端，這次後端的寫法寫得不是很好，導致我們在deploy的時候出現很多bug，不過我還是寫得很開心，因為這是電資領域裡少數可以發揮美工興趣的地方，可以說是我這學期修的課裡面最喜歡的一堂。老師的上課內容很扎實，而且由淺入深，我在學期開始之前的暑假有自己學習寫網站，但學得很零碎，上了這門課之後才終於把相關知識比較有系統地在大腦建立起來，覺得很幸運能上到這堂課！
-  
-#### B08902006 陳姿穎 :
   一開始的想法很多，實際做起來後才發現要實現想像的模樣有些難度，儘管網路上很多套件，但每個人使用的環境、背景都不同，常常會有很多error需要解決。前端後端的溝通很不容易，常常一點小更動就很多份code都要改。而前端的排版以及後端的資料庫該存取的資料也是因沒有正確答案而令人苦惱。在寫這份Final時由於查了很多資料，學會了很多新的套件，也將很多語法都記熟了。Depoly成網站時雖然很不容易、重重難關，但最後成功讓別人從遠端使用自己的作品非常有成就感！
   
   
@@ -57,4 +51,4 @@ yarn
 • Material-UI
 
 ### 補充說明 : 
- 因為我們想呈現親手寫手帳的感覺，所以排版方面(例如CSS)，是一步步徹底手刻出來的，沒有套用任何模板或套件。
+ 因為想呈現親手寫手帳的感覺，所以排版方面(例如CSS)，是一步步徹底手刻出來的，沒有套用任何模板或套件。
