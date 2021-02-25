@@ -5,16 +5,51 @@
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+  cursor: url(https://cur.cursors-4u.net/others/oth-5/oth510.ani), url(http://cur.cursors-4u.net/others/oth-5/oth510.png), auto !important;  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+a:hover{cursor: url(https://cur.cursors-4u.net/others/oth-5/oth510.ani), url(http://cur.cursors-4u.net/others/oth-5/oth510.png), auto !important; }
+
+
+.font_F{
+  font-family: 'Fraunces', serif;
+}
+
+.font_s{
+  font-family: sweet_pineappleregular, serif;
+}
+
+.font_J{
+  font-family: "Just\ Me\ Again\ Down\ Here", serif;
+}
+
+
+@keyframes fadein{
+  from{
+      opacity: 0;
+  }
+  to{ 
+      opacity: 1;
+  }
+}
+
+.fade-in{
+  animation-name:fadein;
+  animation-duration:2s;
+}
+
+
+@keyframes fadeout{
+  from{
+      opacity: 1;
+  }
+  to{ 
+      opacity: 0;
+  }
+}
+
+.fade-out{
+  animation-name:fadeout;
+  animation-duration:2s;
 }
